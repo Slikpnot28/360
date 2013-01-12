@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 360 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP183.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/360.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\×ÀÃæ\36000\360Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP183.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP184.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/360.pdb" /debug /machine:I386 /out:"Debug/360.exe" /pdbtype:sept 
+".\Debug\360.obj"
+".\Debug\360Dlg.obj"
+".\Debug\BmpBtn.obj"
+".\Debug\Page1.obj"
+".\Debug\Page2.obj"
+".\Debug\Page3.obj"
+".\Debug\Page4.obj"
+".\Debug\Page5.obj"
+".\Debug\Page6.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TabDlg.obj"
+".\Debug\360.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP184.tmp"
+<h3>Output Window</h3>
+Compiling...
+360Dlg.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP185.tmp" with contents
+[
+/nologo /o"Debug/360.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\360.sbr"
+".\Debug\360Dlg.sbr"
+".\Debug\BmpBtn.sbr"
+".\Debug\Page1.sbr"
+".\Debug\Page2.sbr"
+".\Debug\Page3.sbr"
+".\Debug\Page4.sbr"
+".\Debug\Page5.sbr"
+".\Debug\Page6.sbr"
+".\Debug\TabDlg.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP185.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+360.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
